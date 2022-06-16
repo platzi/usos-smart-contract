@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DigitalIdentity/Proposal/Authentication.sol": "Authentication"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DigitalIdentity/Proposal/Authentication.sol": {
+			"keccak256": "0x04795a7173bf5d1fd4f0ca9b60b8d27c5f70f10c222cb140f206cca285a4caa9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6e279db8d94e2b247ccf2a3723deb65182ba2c2c8921cf8f8c4d4c22446ae1d5",
+				"dweb:/ipfs/QmYKq9HcTAic66XJGt2BYv481zVj971S4zr8DRPwqv4Mtv"
+			]
+		}
+	},
+	"version": 1
+}
